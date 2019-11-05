@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace csharp.simpleioc.container
 {
-    class Container : IContainer
+    public class Container : IContainer
     {
         private readonly List<RegisteredObject> _registeredObjects = new List<RegisteredObject>();
 

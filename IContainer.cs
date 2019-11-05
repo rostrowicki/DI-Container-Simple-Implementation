@@ -4,7 +4,7 @@ using System.Text;
 
 namespace csharp.simpleioc.container
 {
-    interface IContainer
+    public interface IContainer
     {        
         void Register<TTypeToResolve, TConcrete>();
         void Register<TTypeToResolve, TConcrete>(LifeCycle lifeCycle);
